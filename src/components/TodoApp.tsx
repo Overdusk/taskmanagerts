@@ -24,7 +24,7 @@ export const TodoApp = () => {
 				/>
 				<button onClick= { handleAddTask }> Add Task </button>
 			</div>
-			<TaskList taskList = {taskList} deleteTask = {handleDeleteTask}> </TaskList>
+			<TaskList taskList = {taskList} deleteTask = {handleDeleteTask}></TaskList>
 		</div>
 	)
 	console.log(taskList)
